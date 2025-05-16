@@ -18,7 +18,7 @@ const FutureProjects = () => {
               <Dialog>
                 <DialogTrigger className="relative group">
                   <img 
-                    src="./lovable-uploads/f2b8f2a9-4d4d-484b-b915-5420d86ff3ee.png" 
+                    src="/lovable-uploads/f2b8f2a9-4d4d-484b-b915-5420d86ff3ee.png" 
                     alt="God's Love as told by Maggie book cover" 
                     className="w-full h-48 object-contain mb-4 cursor-pointer transition-all group-hover:opacity-90" 
                   />
@@ -30,7 +30,7 @@ const FutureProjects = () => {
                 </DialogTrigger>
                 <DialogContent className="max-w-2xl p-2">
                   <img 
-                    src="./lovable-uploads/2219969e-6923-417c-91ad-63508ac18d29.png" 
+                    src="/lovable-uploads/2219969e-6923-417c-91ad-63508ac18d29.png" 
                     alt="God's Love as told by Maggie book cover" 
                     className="w-full object-contain max-h-[80vh]" 
                   />

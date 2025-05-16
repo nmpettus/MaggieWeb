@@ -1,5 +1,9 @@
 {
+  "scripts": {
+    "dev": "vite"
+  },
   "devDependencies": {
-    "@babel/plugin-proposal-decorators": "^7.23.9"
+    "@babel/plugin-proposal-decorators": "^7.23.9",
+    "vite": "^5.0.0"
   }
 }

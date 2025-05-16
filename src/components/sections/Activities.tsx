@@ -2,7 +2,7 @@ import React from "react";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Download, Puzzle, BookText, PenSquare } from "lucide-react";
-import LetterToMaggie from "@/components/activities/LetterToMaggie.tsx";
+import LetterToMaggie from "../../components/activities/LetterToMaggie";
 
 const Activities = () => {
   const activities = [

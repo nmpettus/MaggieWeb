@@ -115,7 +115,7 @@ export const booksData: BookData[] = [
   {
     id: "creation",
     title: "Creation as told by MAGGIE",
-    coverImage: "https://booksbymaggie.com/images/creation.png",
+    coverImage: "/lovable-uploads/711c1342-427a-4191-91d3-7ebe4ec29df9.png",
     languages: ["English", "Spanish", "Italian"],
     description: "An AI-Enhanced Biblical Story for Children, narrated by Maggie about God's creation of the world.",
     reviewCount: 24,
@@ -124,7 +124,7 @@ export const booksData: BookData[] = [
   {
     id: "noah",
     title: "Noah's Ark as told by MAGGIE",
-    coverImage: "https://booksbymaggie.com/images/noah.png",
+    coverImage: "/lovable-uploads/83369923-a075-46d1-b5cf-54d226cab7da.png",
     languages: ["English"],
     description: "An AI-Enhanced Biblical Story for Children about Noah and the great flood, narrated by Maggie.",
     reviewCount: 21,
@@ -133,7 +133,7 @@ export const booksData: BookData[] = [
   {
     id: "jonah",
     title: "Jonah as told by MAGGIE",
-    coverImage: "https://booksbymaggie.com/images/jonah.png",
+    coverImage: "/lovable-uploads/b3639f34-6564-48eb-bba5-c7cb2a340f62.png",
     languages: ["English"],
     description: "An AI-Enhanced Biblical Story for Children about Jonah and the great fish, narrated by Maggie.",
     reviewCount: 15,

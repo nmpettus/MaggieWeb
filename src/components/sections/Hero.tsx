@@ -59,7 +59,7 @@ const Hero = () => {
           </div>
           <div className="flex justify-center relative">
             <img 
-              src="https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg" 
+              src="/lovable-uploads/22798029-d558-453e-8673-fa3d5ec62840.png" 
               alt="Maggie with books" 
               className="rounded-xl shadow-2xl max-w-full h-auto" 
             />

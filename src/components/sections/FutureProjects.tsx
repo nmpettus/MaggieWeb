@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import { Image } from "lucide-react";
@@ -19,7 +18,7 @@ const FutureProjects = () => {
               <Dialog>
                 <DialogTrigger className="relative group">
                   <img 
-                    src="/lovable-uploads/f2b8f2a9-4d4d-484b-b915-5420d86ff3ee.png" 
+                    src="https://images.pexels.com/photos/256514/pexels-photo-256514.jpeg" 
                     alt="God's Love as told by Maggie book cover" 
                     className="w-full h-48 object-contain mb-4 cursor-pointer transition-all group-hover:opacity-90" 
                   />

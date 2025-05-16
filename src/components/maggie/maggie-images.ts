@@ -2,27 +2,27 @@
 export const maggie_images = [
   // Real Maggie images (no cartoons)
   {
-    src: "/lovable-uploads/96d18d5d-f08b-4f0c-bbd6-48259e4a9477.png",
+    src: "https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg",
     alt: "Maggie on carpet"
   },
   {
-    src: "/lovable-uploads/5b72a1e2-6f38-49a3-bc95-07d7cf70ad0d.png",
+    src: "https://images.pexels.com/photos/1458916/pexels-photo-1458916.jpeg",
     alt: "Maggie in the car"
   },
   {
-    src: "/lovable-uploads/a0dc09df-1ac6-4e12-b89f-b420c454c324.png",
+    src: "https://images.pexels.com/photos/2023384/pexels-photo-2023384.jpeg",
     alt: "Maggie with toy"
   },
   {
-    src: "/lovable-uploads/30df7f29-250a-4621-93de-e0bf5a5d9497.png",
+    src: "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg",
     alt: "Maggie on tile floor"
   },
   {
-    src: "/lovable-uploads/44c9e724-adb0-47cf-bc9a-4836ae3a2679.png",
+    src: "https://images.pexels.com/photos/1390361/pexels-photo-1390361.jpeg",
     alt: "Maggie close-up on bed"
   },
   {
-    src: "/lovable-uploads/923f9fb1-ff49-4415-bdbb-0a6ff62e3832.png",
+    src: "https://images.pexels.com/photos/1254140/pexels-photo-1254140.jpeg",
     alt: "Maggie puppy on blanket"
   },
   {

@@ -15,7 +15,9 @@
     "tailwind-merge": "^2.2.1",
     "lucide-react": "^0.330.0",
     "class-variance-authority": "^0.7.0",
-    "@radix-ui/react-toast": "^1.1.5"
+    "@radix-ui/react-toast": "^1.1.5",
+    "@radix-ui/react-scroll-area": "^1.0.5",
+    "embla-carousel-react": "^8.0.0-rc22"
   },
   "devDependencies": {
     "@babel/plugin-proposal-decorators": "^7.23.9",

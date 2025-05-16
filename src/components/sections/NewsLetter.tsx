@@ -107,11 +107,11 @@ const Newsletter = () => {
     </DialogDescription>
     </DialogHeader>
     <div className="flex justify-center py-4">
-    <img
-    src="./lovable-uploads/22798029-d558-453e-8673-fa3d5ec62840.png"
-    alt="Maggie welcoming you"
-    className="w-1/2 rounded-lg shadow-md"
-    />
+      <img 
+        src="lovable-uploads/22798029-d558-453e-8673-fa3d5ec62840.png"
+        alt="Maggie welcoming you"
+        className="w-1/2 rounded-lg shadow-md"
+      />
     </div>
     <DialogFooter>
     <Button

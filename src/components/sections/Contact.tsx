@@ -88,107 +88,109 @@ const Contact = () => {
   };
 
   return (
-    <>
-    <Card className="transition-all duration-300 hover:shadow-lg">
-    <CardHeader className="flex items-center bg-gradient-to-r from-green-100 to-blue-100">
-    <div className="p-3 rounded-full bg-green-200 mb-4">
-    <MessageSquare className="h-10 w-10 text-green-600" />
-    </div>
-    <CardTitle className="text-3xl font-['Comic_Neue'] text-center">Contact Us</CardTitle>
-    <CardDescription className="text-lg text-center">
-    Have a question or comment? We'd love to hear from you!
-    </CardDescription>
-    </CardHeader>
-    <CardContent className="pt-6">
-    <form onSubmit={handleSubmit} className="space-y-4">
-    <div className="space-y-2">
-    <Label htmlFor="name" className="text-lg">Your Name</Label>
-    <Input
-    id="name"
-    value={name}
-    onChange={(e) => setName(e.target.value)}
-    placeholder="Enter your name"
-    required
-    className="border-2 border-green-200 focus:border-green-400 text-lg"
-    />
-    </div>
+    <section id="contact" className="py-16 bg-white">
+      <div className="container mx-auto px-6">
+        <Card className="transition-all duration-300 hover:shadow-lg">
+          <CardHeader className="flex items-center bg-gradient-to-r from-green-100 to-blue-100">
+            <div className="p-3 rounded-full bg-green-200 mb-4">
+              <MessageSquare className="h-10 w-10 text-green-600" />
+            </div>
+            <CardTitle className="text-3xl font-['Comic_Neue'] text-center">Contact Us</CardTitle>
+            <CardDescription className="text-lg text-center">
+              Have a question or comment? We'd love to hear from you!
+            </CardDescription>
+          </CardHeader>
+          <CardContent className="pt-6">
+            <form onSubmit={handleSubmit} className="space-y-4">
+              <div className="space-y-2">
+                <Label htmlFor="name" className="text-lg">Your Name</Label>
+                <Input
+                  id="name"
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
+                  placeholder="Enter your name"
+                  required
+                  className="border-2 border-green-200 focus:border-green-400 text-lg"
+                />
+              </div>
 
-    <div className="space-y-2">
-    <Label htmlFor="email" className="text-lg">Email Address</Label>
-    <Input
-    id="email"
-    type="email"
-    value={email}
-    onChange={(e) => setEmail(e.target.value)}
-    placeholder="Enter your email address"
-    required
-    className="border-2 border-green-200 focus:border-green-400 text-lg"
-    />
-    </div>
+              <div className="space-y-2">
+                <Label htmlFor="email" className="text-lg">Email Address</Label>
+                <Input
+                  id="email"
+                  type="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  placeholder="Enter your email address"
+                  required
+                  className="border-2 border-green-200 focus:border-green-400 text-lg"
+                />
+              </div>
 
-    <div className="space-y-2">
-    <Label htmlFor="subject" className="text-lg">Subject</Label>
-    <Input
-    id="subject"
-    value={subject}
-    onChange={(e) => setSubject(e.target.value)}
-    placeholder="What's this about?"
-    required
-    className="border-2 border-green-200 focus:border-green-400 text-lg"
-    />
-    </div>
+              <div className="space-y-2">
+                <Label htmlFor="subject" className="text-lg">Subject</Label>
+                <Input
+                  id="subject"
+                  value={subject}
+                  onChange={(e) => setSubject(e.target.value)}
+                  placeholder="What's this about?"
+                  required
+                  className="border-2 border-green-200 focus:border-green-400 text-lg"
+                />
+              </div>
 
-    <div className="space-y-2">
-    <Label htmlFor="message" className="text-lg">Your Message</Label>
-    <Textarea
-    id="message"
-    value={message}
-    onChange={(e) => setMessage(e.target.value)}
-    placeholder="Type your message here"
-    required
-    className="min-h-[120px] border-2 border-green-200 focus:border-green-400 text-lg"
-    />
-    </div>
-    </form>
-    </CardContent>
-    <CardFooter className="flex justify-center pb-6 bg-gradient-to-r from-green-100 to-blue-100">
-    <Button
-    onClick={handleSubmit}
-    disabled={isSubmitting}
-    className="w-full flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-lg py-6"
-    >
-    <MessageSquare size={20} />
-    {isSubmitting ? 'Sending message...' : 'Send Message'}
-    </Button>
-    </CardFooter>
-    </Card>
+              <div className="space-y-2">
+                <Label htmlFor="message" className="text-lg">Your Message</Label>
+                <Textarea
+                  id="message"
+                  value={message}
+                  onChange={(e) => setMessage(e.target.value)}
+                  placeholder="Type your message here"
+                  required
+                  className="min-h-[120px] border-2 border-green-200 focus:border-green-400 text-lg"
+                />
+              </div>
+            </form>
+          </CardContent>
+          <CardFooter className="flex justify-center pb-6 bg-gradient-to-r from-green-100 to-blue-100">
+            <Button
+              onClick={handleSubmit}
+              disabled={isSubmitting}
+              className="w-full flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-lg py-6"
+            >
+              <MessageSquare size={20} />
+              {isSubmitting ? 'Sending message...' : 'Send Message'}
+            </Button>
+          </CardFooter>
+        </Card>
 
-    <Dialog open={showSuccess} onOpenChange={setShowSuccess}>
-    <DialogContent className="bg-green-50 border-green-200">
-    <DialogHeader>
-    <DialogTitle className="font-['Comic_Neue'] text-2xl text-green-800">Message Sent!</DialogTitle>
-    <DialogDescription className="text-lg">
-    Thanks for reaching out! We'll get back to you as soon as possible.
-    </DialogDescription>
-    </DialogHeader>
-    <div className="flex justify-center py-4">
-    <img
-    src="/lovable-uploads/22798029-d558-453e-8673-fa3d5ec62840.png"
-    alt="Maggie thanking you"
-    className="w-1/2 rounded-lg shadow-md"
-    />
-    </div>
-    <DialogFooter>
-    <Button
-    onClick={() => setShowSuccess(false)}
-    className="bg-green-600 hover:bg-green-700 text-lg"
-    >
-    Close
-    </Button>
-    </DialogFooter>
-    </DialogContent>
-    </Dialog>
-    </>
+        <Dialog open={showSuccess} onOpenChange={setShowSuccess}>
+          <DialogContent className="bg-green-50 border-green-200">
+            <DialogHeader>
+              <DialogTitle className="font-['Comic_Neue'] text-2xl text-green-800">Message Sent!</DialogTitle>
+              <DialogDescription className="text-lg">
+                Thanks for reaching out! We'll get back to you as soon as possible.
+              </DialogDescription>
+            </DialogHeader>
+            <div className="flex justify-center py-4">
+              <img
+                src="/lovable-uploads/22798029-d558-453e-8673-fa3d5ec62840.png"
+                alt="Maggie thanking you"
+                className="w-1/2 rounded-lg shadow-md"
+              />
+            </div>
+            <DialogFooter>
+              <Button
+                onClick={() => setShowSuccess(false)}
+                className="bg-green-600 hover:bg-green-700 text-lg"
+              >
+                Close
+              </Button>
+            </DialogFooter>
+          </DialogContent>
+        </Dialog>
+      </div>
+    </section>
   );
 };
 

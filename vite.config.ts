@@ -8,8 +8,11 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
     fs: {
-      strict: false,
+      strict: true,
       allow: ['..']
+    },
+    watch: {
+      usePolling: true
     }
   },
   plugins: [
@@ -27,7 +30,6 @@ export default defineConfig(({ mode }) => ({
   build: {
     outDir: 'dist',
     sourcemap: false,
-    minify: true,
-    assetsDir: 'assets'
+    minify: true
   },
 }));

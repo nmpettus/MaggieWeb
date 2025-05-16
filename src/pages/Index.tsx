@@ -1,4 +1,3 @@
-
 import React from "react";
 import Navigation from "@/components/Navigation";
 import Hero from "@/components/sections/Hero";
@@ -6,7 +5,7 @@ import Books from "@/components/sections/Books";
 import MeetMaggie from "@/components/sections/MeetMaggie";
 import Activities from "@/components/sections/Activities";
 import FutureProjects from "@/components/sections/FutureProjects";
-import Newsletter from "@/components/sections/Newsletter";
+import Newsletter from "@/components/sections/NewsLetter.tsx";
 import Contact from "@/components/sections/Contact";
 import Footer from "@/components/sections/Footer";
 import BackToTopButton from "@/components/BackToTopButton";

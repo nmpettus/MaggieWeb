@@ -8,7 +8,7 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
     fs: {
-      strict: false,
+      strict: true,
       allow: ['..']
     }
   },
@@ -27,6 +27,7 @@ export default defineConfig(({ mode }) => ({
   build: {
     outDir: 'dist',
     sourcemap: false,
-    minify: true
+    minify: true,
+    assetsDir: 'assets'
   },
 }));

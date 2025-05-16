@@ -8,3 +8,5 @@
  import Contact from "@/components/sections/Contact";
  import Footer from "@/components/sections/Footer";
  import BackToTopButton from "@/components/BackToTopButton";
+
+export default BackToTopButton

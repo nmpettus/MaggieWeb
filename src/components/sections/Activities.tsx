@@ -32,3 +32,4 @@
        downloadText: "Download Cards"
      }
    ];
+ }

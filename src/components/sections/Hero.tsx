@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { PartyPopper } from "lucide-react";
@@ -60,7 +59,7 @@ const Hero = () => {
           </div>
           <div className="flex justify-center relative">
             <img 
-              src="/lovable-uploads/22798029-d558-453e-8673-fa3d5ec62840.png" 
+              src="https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg" 
               alt="Maggie with books" 
               className="rounded-xl shadow-2xl max-w-full h-auto" 
             />

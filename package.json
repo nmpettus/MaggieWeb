@@ -4,6 +4,7 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-decorators": "^7.23.9",
+    "@vitejs/plugin-react": "^4.2.1",
     "vite": "^5.0.0"
   }
 }

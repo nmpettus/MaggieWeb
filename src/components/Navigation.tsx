@@ -57,7 +57,7 @@ const Navigation = () => {
         <nav className="container mx-auto px-6 py-4">
           <div className="flex justify-between items-center">
             <div className="flex items-center space-x-2">
-              <img src="/lovable-uploads/22798029-d558-453e-8673-fa3d5ec62840.png" alt="Maggie the dog logo" className="h-12 w-12 rounded-full object-cover" />
+              <img src="https://images.pexels.com/photos/1805164/pexels-photo-1805164.jpeg" alt="Maggie the dog logo" className="h-12 w-12 rounded-full object-cover" />
               <span className="text-2xl font-bold text-indigo-600 font-['Comic_Neue']">Maggie's Books</span>
             </div>
             <div className="hidden md:flex space-x-8">

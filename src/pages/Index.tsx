@@ -8,5 +8,3 @@ import Footer from "@/components/sections/Footer";
 import BackToTopButton from "@/components/BackToTopButton";
 
 export default BackToTopButton
-
-export default BackToTopButton

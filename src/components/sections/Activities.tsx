@@ -2,7 +2,6 @@ import React from "react";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Download, Puzzle, BookText, PenSquare } from "lucide-react";
-import LetterToMaggie from "@/components/activities/LetterToMaggie";
 
 const Activities = () => {
   const activities = [
@@ -63,12 +62,6 @@ const Activities = () => {
               </CardFooter>
             </Card>
           ))}
-        </div>
-
-        <div className="mt-12">
-          <div className="max-w-md mx-auto">
-            <LetterToMaggie />
-          </div>
         </div>
 
         <div className="mt-12 text-center">

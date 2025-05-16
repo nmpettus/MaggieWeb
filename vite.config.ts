@@ -3,9 +3,14 @@ import react from "@vitejs/plugin-react";
 import path from "path";
 
 export default defineConfig(({ mode }) => ({
+  publicDir: 'public',
   server: {
     host: "::",
     port: 8080,
+    fs: {
+      strict: false,
+      allow: ['..']
+    }
   },
   plugins: [
     react({
@@ -22,6 +27,6 @@ export default defineConfig(({ mode }) => ({
   build: {
     outDir: 'dist',
     sourcemap: false,
-    minify: true,
+    minify: true
   },
 }));
